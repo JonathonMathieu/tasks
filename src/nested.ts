@@ -128,6 +128,7 @@ export function editOption(
     targetOptionIndex: number,
     newOption: string,
 ): Question[] {
+<<<<<<< HEAD
     return questions.map((q) => {
         if (q.id !== targetId) {
             return q;
@@ -148,4 +149,7 @@ export function editOption(
             options: newOptions,
         };
     });
+=======
+    return [];
+>>>>>>> upstream/task-state
 }
